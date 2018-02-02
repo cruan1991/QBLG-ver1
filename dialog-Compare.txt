@@ -1,0 +1,225 @@
+------------Start to compare£º-----------------
+compM[]=
+    [4x4 double]    [4x4 double]    [4x4 double]    [4x4 double]
+
+indexM=
+     4
+
+flagC
+     1     1     1     1
+
+Flag(i)=
+     1
+
+============AAAAAAAAAAAAAAAAAAAAAAAAA==========
+i=
+     1
+
+now the number of rest submatrices in flagC is:
+     4
+
+i=
+     1
+
+i=
+     1
+
+j=
+     2
+
+Flag(j)=
+     1
+
+=========The comparision result is £¨Not Same£©£º==============
+Not Same, itIsEqual=
+     0
+
+Output result=
+     1     0
+     0     0
+
+i=
+     1
+
+j=
+     3
+
+Flag(j)=
+     1
+
+=========The comparision result is £¨Not Same£©£º==============
+Not Same, itIsEqual=
+     0
+
+Output result=
+     1     0
+     0     0
+
+i=
+     1
+
+j=
+     4
+
+Flag(j)=
+     1
+
+=========The comparision result is £¨Same£©£º==============
+Same,itIsEqual=
+     1
+
+Output result=
+     1     0
+     0     1
+
+**************Write this result into file(1)******************
+     1     0
+     0     1
+
+@@@@@@@@@@@@@@@@The New flagC is:@@@@@@@@@@@@@@
+     0     1     1     0
+
+------------Start to compare£º-----------------
+compM[]=
+    [4x4 double]    [4x4 double]    [4x4 double]    [4x4 double]
+
+indexM=
+     4
+
+flagC
+     0     1     1     0
+
+Flag(i)=
+     1
+
+============AAAAAAAAAAAAAAAAAAAAAAAAA==========
+i=
+     2
+
+now the number of rest submatrices in flagC is:
+     2
+
+i=
+     2
+
+i=
+     2
+
+j=
+     3
+
+Flag(j)=
+     1
+
+=========The comparision result is £¨Not Same£©£º==============
+Not Same, itIsEqual=
+     0
+
+Output result=
+     0     1
+     0     0
+
+i=
+     2
+
+j=
+     4
+
+Flag(j)=
+     0
+
+%%%%%%Stop Compairision since the related flagC is 0%%%%
+j=
+     4
+
+resultC=
+     0     1     0     0
+
+flagC=
+     0     1     1     0
+
+**************Write this result into file(1)******************
+     0     1
+     0     0
+
+@@@@@@@@@@@@@@@@The New flagC is:@@@@@@@@@@@@@@
+     0     0     1     0
+
+------------Start to compare£º-----------------
+compM[]=
+    [4x4 double]    [4x4 double]    [4x4 double]    [4x4 double]
+
+indexM=
+     4
+
+flagC
+     0     0     1     0
+
+Flag(i)=
+     1
+
+============AAAAAAAAAAAAAAAAAAAAAAAAA==========
+i=
+     3
+
+now the number of rest submatrices in flagC is:
+     1
+
+^^^^^^No more comparision^^^^^^
+^^^^^^^^^^^Final Loop of Decision^^^^^^^^^
+The lines in resultC:
+     2
+
+==========Output the final result(2)========
+c
+     3
+
+resultC=
+     0     0     1     0
+
+twoColumnResultC
+     0     0
+     1     0
+
+flagC=
+     0     0     1     0
+
+~~~~~~~~111112~~~~~~~~~~~~~~The lines in resultC:
+     3
+
+==========Output the zero result(2)========
+     0     0
+     0     0
+
+resultC= 
+     1     0     0     1
+     0     1     0     0
+     0     0     1     0
+     0     0     0     0
+
+cLt=2, cRt=1, cLb=1, cRb=0 
+=======Decomposition Decision===========
+******No partition-leaves******
+i=1 
+Leaves matrices.
+Savc as:level1no1.mat
+*************
+
+ans =
+
+     1     1     1     1
+     1     1     1     1
+     1     1     1     1
+     1     1     1     1
+
+QTree(tMatrix, 1)
+depth=2 
+C:\Users\math\Desktop\Lena Test1\Result\Matrix\1\ 
+=======Start-nodes============
+i=1
+2 x 2 matrices. 
+Savc as:level1no1.mat
+=======Call the comparision function======
+[Warning: File not found or permission denied] 
+[> In <a href="matlab: opentoline('C:\Users\Cihan\Desktop\Lena Test1\Saved\CpMatrixFuc.m',3,1)">CpMatrixFuc at 3</a>
+  In <a href="matlab: opentoline('C:\Users\Cihan\Desktop\Lena Test1\Saved\QTree.m',56,1)">QTree at 56</a>] 
